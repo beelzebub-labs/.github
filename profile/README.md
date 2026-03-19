@@ -31,7 +31,7 @@ Beelzebub is an **AI-native security platform** that redefines cybersecurity for
 
 We close that gap. Our platform transforms invisible cyber threats into actionable intelligence: using AI-powered deception, behavioral detection, and autonomous response to protect both digital infrastructure and AI agents themselves.
 
-**Founded by [Mario Candela](https://github.com/mariocandela) 🇮🇹
+Founded by [Mario Candela](https://github.com/mariocandela) 🇮🇹
 
 ## Open-Source Core
 
