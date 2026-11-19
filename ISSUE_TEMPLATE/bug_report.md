@@ -1,27 +1,35 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: Bug Report
+about: Report a problem so we can fix it
 title: ''
-labels: ''
-assignees: mariocandela
+labels: bug
+assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+<!-- Do not report security vulnerabilities here. See https://github.com/beelzebub-labs/.github/blob/main/SECURITY.md -->
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+## Description
+<!-- A clear and concise description of the bug. -->
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
 
-**Logs**
-If applicable, attach logs to help explain your problem.
+## Steps to Reproduce
+1.
+2.
+3.
 
-**Additional context**
-Add any other context about the problem here.
+## Expected Behavior
+<!-- What you expected to happen. -->
+
+
+## Actual Behavior
+<!-- What happened instead. Attach logs or screenshots if relevant. -->
+
+
+## Environment
+- Project version:
+- Deployment method (binary, Docker, Kubernetes, other):
+- Operating system and architecture:
+
+## Additional Context
+<!-- Any other information that helps explain the problem. -->
