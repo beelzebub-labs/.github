@@ -1,77 +1,65 @@
-<p align="center">
-  <img width="80" alt="beelzebub" src="https://github.com/user-attachments/assets/ccad8b4c-c361-4464-aadf-d12aa0a51595" />
-</p>
+![Beelzebub — active defense for the AI agent era](https://raw.githubusercontent.com/beelzebub-labs/.github/main/profile/assets/cover.svg)
 
-<h1 align="center">Beelzebub</h1>
+# Beelzebub
 
-<p align="center">
-  <strong>AI-Native Security Platform</strong>
-</p>
+**Active defense for the AI agent era.**
 
-<p align="center">
-  <a href="https://beelzebub.ai">Website</a> •
-  <a href="https://docs.beelzebub.ai">Docs</a> •
-  <a href="https://beelzebub.ai/blog/">Security Labs</a> •
-  <a href="https://github.com/beelzebub-labs/beelzebub">Open-Source Core</a> •
-  <a href="https://www.linkedin.com/company/beelzebub">LinkedIn</a> •
-  <a href="https://x.com/BeelzebubLabs">X</a>
-</p>
+Stop machine-speed attacks before they become business impact.
 
-<p align="center">
-  <a href="https://github.com/mariocandela/beelzebub/stargazers"><img src="https://img.shields.io/github/stars/mariocandela/beelzebub?style=social" alt="GitHub Stars"></a>
-  <a href="https://github.com/mariocandela/beelzebub/network/members"><img src="https://img.shields.io/github/forks/mariocandela/beelzebub?style=social" alt="GitHub Forks"></a>
-  <a href="https://github.com/mariocandela/beelzebub/blob/main/LICENSE"><img src="https://img.shields.io/github/license/mariocandela/beelzebub" alt="License"></a>
-</p>
-
----
+[Website](https://beelzebub.ai) · [Documentation](https://docs.beelzebub.ai) · [Security Lab](https://beelzebub.ai/blog/) · [White Paper](https://beelzebub.ai/white-paper/) · [Book a Demo](https://beelzebub.ai/contact/) · [LinkedIn](https://www.linkedin.com/company/beelzebub) · [X](https://x.com/BeelzebubLabs)
 
 ## About Us
 
-Beelzebub is an **AI-native security platform** that redefines cybersecurity for the age of autonomous agents and AI-driven threats. Traditional perimeter defenses, signature-based detection, and manual SOC workflows were not designed for a world where adversaries operate faster, scale attacks automatically, and remain hidden deep inside trusted environments.
+Beelzebub is an AI-native security company. Perimeter defenses, signature-based detection, and manual SOC workflows were not designed for adversaries that move at machine speed, scale automatically, and stay hidden inside trusted environments, including attackers that target AI agents themselves.
 
-We close that gap. Our platform transforms invisible cyber threats into actionable intelligence: using AI-powered deception, behavioral detection, and autonomous response to protect both digital infrastructure and AI agents themselves.
+We answer that with three capabilities that work together: **AI-native deception** to catch attackers after they bypass the perimeter, **continuous red teaming** to find the exploitable path before they do, and **autonomous threat intelligence** to turn unknown payloads into evidence a SOC can act on.
 
-Founded by [Mario Candela](https://github.com/mariocandela) 🇮🇹
+Beelzebub was founded by [Mario Candela](https://github.com/mariocandela) and is based in Milan, Italy. Our technology started as an open-source research project, and open source remains at the core of what we build.
 
-## Open-Source Core
+## Products
 
-Our technology originated as a globally adopted open-source research project and remains community-driven at its core.
+| Product | What It Does |
+| --- | --- |
+| **[Beelzebub Platform](https://beelzebub.ai/products/beelzebub-cloud/)** | Deploys realistic decoys and canary credentials across your environment. Flags reconnaissance and privilege escalation when an attacker touches a decoy, reconstructs the session for analysts, and forwards verified context to SIEM, SOAR, firewalls, and identity providers. |
+| **[Arcangelo](https://beelzebub.ai/products/arcangelo/)** | Combines internal and external attack surface management with agentic penetration testing. Maps assets and supplier exposure, runs multi-stage tests with human approval before active steps, tests LLMs and AI agents for prompt injection and jailbreaks, and ranks remediation by exploitability and business impact. |
+| **[Caronte](https://beelzebub.ai/products/caronte/)** | Agentic malware analysis and threat intelligence. Submit a file, URL, domain, IP, or hash; Caronte follows the attack chain, detonates samples in the Azazel sandbox, extracts IoCs and TTPs, and produces a report ready for your SOC. |
 
-![github-inception](https://github.com/user-attachments/assets/e14cd052-bfa4-4804-8cde-f461615940b8)
+## Open Source and Models
 
-👉 **Get started in 1–2 minutes**: [docs](https://docs.beelzebub.ai)
+| Project | Description |
+| --- | --- |
+| **[Beelzebub](https://github.com/beelzebub-labs/beelzebub)** [![Stars](https://img.shields.io/github/stars/beelzebub-labs/beelzebub?style=flat&color=6930c3&label=stars)](https://github.com/beelzebub-labs/beelzebub/stargazers) | Open-source deception framework. Define decoys in YAML for SSH, HTTP, TCP, TELNET, and MCP, choose static or LLM-powered responses, and capture every interaction as security evidence. |
+| **[Azazel](https://github.com/beelzebub-labs/azazel)** [![Stars](https://img.shields.io/github/stars/beelzebub-labs/azazel?style=flat&color=6930c3&label=stars)](https://github.com/beelzebub-labs/azazel/stargazers) | eBPF-powered silent observer for containerized runtimes, built for malware analysis sandboxes and agentic AI monitoring. Powers sandbox analysis in Caronte. |
+| **[blz-1](https://beelzebub.ai/models/)** | Open-weight 27B language model for blue and red teams: threat analysis, detection engineering, security code review, vulnerability research, and authorized assessments. Currently available to beta testers. |
 
-## How It Works
+New to Beelzebub? Follow the [quick start](https://github.com/beelzebub-labs/beelzebub#get-started) to deploy your first decoy, or build an extension from the [plugin blueprint](https://github.com/beelzebub-labs/beelzebub-plugin-blueprint).
 
-1. **Deploy Full-Stack Decoys** Deploy AI-powered honeypots across containers, Kubernetes clusters, APIs, AI agent tools, cloud-native environments, and IoT devices. Zero supervision required, zero false positives.
+## Security Lab
 
-2. **Engage & Analyze Threats** When attackers interact with decoys during lateral movement, the AI honeypots keep them engaged while our autonomous SOC performs comprehensive analysis, from malware sandboxing to network traffic inspection.
+The [Beelzebub Security Lab](https://beelzebub.ai/blog/) publishes original research on threats captured by our decoys and analyzed with our tooling, from AI agents attacking in the wild to APT malware campaigns. Our work has been referenced by the SANS Internet Storm Center, the Cloud Security Alliance, and Akamai, and covered by The Hacker News, Help Net Security, Forbes Italia, and Red Hot Cyber.
 
-3. **Autonomous Response & Intelligence** Compromised systems are auto-isolated in seconds, stopping lateral spread while generating executive-ready post-mortem reports with actionable remediation recommendations.
+## Industries and Integrations
 
-## Trusted By Engineers Working At
+**Industries:** AI services, financial services, government, healthcare, manufacturing and Industry 4.0, IT providers and technology, transport and logistics.
 
-<p align="center">
-  <strong>Cisco · Microsoft · Red Hat · Google · AWS · Salesforce · ByteDance · Boeing · OSRAM · NVIDIA · Oracle · SAP · Cloudflare · Deutsche Telekom</strong><br/>
-  <em>…and many others.</em>
-</p>
+**Integrations:** AWS, Microsoft Azure, Google Cloud, Kubernetes, Docker, Microsoft Sentinel, Splunk, Elastic, Google Chronicle, Datadog, Fortinet FortiSIEM, and Palo Alto Cortex XSOAR.
 
-## Get In Touch
+## Open-Source Community
+
+Engineers from organizations including Cisco, Microsoft, Red Hat, Google, AWS, Salesforce, ByteDance, Boeing, OSRAM, NVIDIA, Oracle, SAP, Cloudflare, and Deutsche Telekom are part of the Beelzebub open-source community.
+
+## Get in Touch
 
 | | |
-|---|---|
-| 📧 **Email** | [info@beelzebub.ai](mailto:info@beelzebub.ai) |
-| 🌐 **Website** | [beelzebub.ai](https://beelzebub.ai) |
-| 📖 **Docs** | [docs.beelzebub.ai](https://docs.beelzebub.ai) |
-| 📍 **Address** | Via Giuseppe Ripamonti 190, 20141 Milan, Italy |
+| --- | --- |
+| **Demo** | [Book a 30-minute demo](https://beelzebub.ai/contact/) |
+| **Email** | [info@beelzebub.ai](mailto:info@beelzebub.ai) |
+| **Website** | [beelzebub.ai](https://beelzebub.ai) |
+| **Documentation** | [docs.beelzebub.ai](https://docs.beelzebub.ai) |
+| **Address** | Via Giuseppe Ripamonti 190, 20141 Milan, Italy |
 
 ---
 
-<p align="center">
-  <strong>Supported by</strong><br/>
-  AWS · NVIDIA · Google · Microsoft
-</p>
+ISO 9001:2015 and ISO/IEC 27001:2022 certified. Supported by AWS, NVIDIA, Google, and Microsoft.
 
-<p align="center">
-  <sub>© 2026 Beelzebub · Built with ❤️ in Italy</sub>
-</p>
+<sub>© 2026 Beelzebub. All rights reserved.</sub>
