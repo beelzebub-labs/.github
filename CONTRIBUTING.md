@@ -50,7 +50,7 @@ Never report security vulnerabilities in public issues. Follow the [Security Pol
 
 #### Submitting a Bug Report
 
-Open an issue in the relevant repository using the bug report template, and:
+Open an issue in the relevant repository, and:
 
 - Describe the expected behavior and the actual behavior.
 - Provide reproduction steps that someone else can follow, ideally with a reduced test case.
@@ -69,7 +69,7 @@ A maintainer will label the issue and try to reproduce it. If reproduction steps
 
 #### Submitting an Enhancement Suggestion
 
-Open an issue in the relevant repository using the feature request template, and:
+Open an issue in the relevant repository, and:
 
 - Use a clear and descriptive title.
 - Describe the suggested enhancement step by step, in as much detail as possible.
@@ -81,4 +81,4 @@ Open an issue in the relevant repository using the feature request template, and
 - For non-trivial changes, open an issue first to discuss the approach.
 - Keep pull requests focused on a single change.
 - Follow the repository's development workflow, run its tests and linters locally, and update the documentation when behavior changes.
-- Complete the pull request template.
+- Describe what the pull request changes and why, and link any related issues.
