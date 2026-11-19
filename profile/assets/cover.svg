@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title description">
-  <title id="title">Beelzebub — AI-native security platform</title>
+  <title id="title">Beelzebub — active defense for the AI agent era</title>
   <desc id="description">An isometric stack of decoy services, the Beelzebub runtime and security evidence. A slow light pulse follows the flow from decoys to evidence while the upper and lower planes shift gently. Text and logo remain still. The artwork is static when reduced motion is preferred.</desc>
   <!-- Original isometric geometry: top, left and right faces use separate material gradients. -->
   <defs>
@@ -102,7 +102,7 @@
     <ellipse cx="930" cy="210" rx="295" ry="190" fill="url(#ambient)" />
     <text x="62" y="83" fill="#bba6d8" font-size="16" font-weight="500" letter-spacing="2.7">DECEPTION, MADE OBSERVABLE</text>
     <text x="58" y="173" fill="#f8f5ff" font-size="76" font-weight="650" letter-spacing="-3">Beelzebub</text>
-    <text x="62" y="225" fill="#d0bde9" font-size="29" font-weight="400">AI-native security platform</text>
+    <text x="62" y="225" fill="#d0bde9" font-size="29" font-weight="400">Active defense for the AI agent era</text>
     <polyline points="62,280 112,280" fill="none" stroke="#9f70e5" stroke-opacity="1" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
     <text x="129" y="286" fill="#a79ab9" font-size="20" font-weight="400">Deploy. Observe. Investigate.</text>
     <ellipse cx="939" cy="327" rx="155" ry="24" fill="#000" opacity=".7" filter="url(#shadow)" />
