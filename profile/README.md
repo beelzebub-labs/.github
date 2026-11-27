@@ -26,11 +26,11 @@ Beelzebub was founded by [Mario Candela](https://github.com/mariocandela) and is
 
 ## Open Source and Models
 
-| Project | Description |
-| --- | --- |
-| **[Beelzebub](https://github.com/beelzebub-labs/beelzebub)** [![Stars](https://img.shields.io/github/stars/beelzebub-labs/beelzebub?style=flat&color=6930c3&label=stars)](https://github.com/beelzebub-labs/beelzebub/stargazers) | Open-source deception framework. Define decoys in YAML for SSH, HTTP, TCP, TELNET, and MCP, choose static or LLM-powered responses, and capture every interaction as security evidence. |
-| **[Azazel](https://github.com/beelzebub-labs/azazel)** [![Stars](https://img.shields.io/github/stars/beelzebub-labs/azazel?style=flat&color=6930c3&label=stars)](https://github.com/beelzebub-labs/azazel/stargazers) | eBPF-powered silent observer for containerized runtimes, built for malware analysis sandboxes and agentic AI monitoring. Powers sandbox analysis in Caronte. |
-| **[blz-1](https://beelzebub.ai/models/)** | Open-weight 27B language model for blue and red teams: threat analysis, detection engineering, security code review, vulnerability research, and authorized assessments. Currently available to beta testers. |
+| Project | Stars | Description |
+| --- | --- | --- |
+| **[Beelzebub](https://github.com/beelzebub-labs/beelzebub)** | [![Stars](https://img.shields.io/github/stars/beelzebub-labs/beelzebub?style=flat&color=6930c3&label=)](https://github.com/beelzebub-labs/beelzebub/stargazers) | Open-source deception framework. Define decoys in YAML for SSH, HTTP, TCP, TELNET, and MCP, choose static or LLM-powered responses, and capture every interaction as security evidence. |
+| **[Azazel](https://github.com/beelzebub-labs/azazel)** | [![Stars](https://img.shields.io/github/stars/beelzebub-labs/azazel?style=flat&color=6930c3&label=)](https://github.com/beelzebub-labs/azazel/stargazers) | eBPF-powered silent observer for containerized runtimes, built for malware analysis sandboxes and agentic AI monitoring. Powers sandbox analysis in Caronte. |
+| **[blz-1](https://beelzebub.ai/models/)** | ![Stars](https://img.shields.io/badge/-none-grey?style=flat) | Open-weight 27B language model for blue and red teams: threat analysis, detection engineering, security code review, vulnerability research, and authorized assessments. Currently available to beta testers. |
 
 New to Beelzebub? Follow the [quick start](https://github.com/beelzebub-labs/beelzebub#get-started) to deploy your first decoy, or build an extension from the [plugin blueprint](https://github.com/beelzebub-labs/beelzebub-plugin-blueprint).
 
